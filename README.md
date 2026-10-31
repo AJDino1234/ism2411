@@ -13,13 +13,11 @@ Install Python, open a terminal in the ism2411 folder, and run:
 ## Reflection
 
 ### 1. Commit history 
-'''text
-250c53c fix README code formatting
-210a4f9 add README with module listing and run instructions
-63e8d52 add module 7 functions
-2e716ba add .gitignore for python and 0S files
-045a541 Intial commit
-'''
+    250c53c fix README code formatting
+    210a4f9 add README with module listing and run instructions
+    63e8d52 add module 7 functions
+    2e716ba add .gitignore for python and 0S files
+    045a541 Intial commit
 
 My commit message shows that I seperated the work in the specific changes. A person who hired me can easily follow how I organized the repository, added my code, and improved the documentation. 
 
