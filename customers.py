@@ -73,7 +73,7 @@ for shopper in customers:
 # Exercise 7 -Nested catalog 
 catalog = {
     "Widget A": {"price": 9.99,  "stock": 150},
-    "Gadget C": {"price" 49.99,  "stock": 8}
+    "Gadget C": {"price": 49.99,  "stock": 8}
 }
 
 for product_name, details in catalog.items():
