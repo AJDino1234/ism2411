@@ -32,4 +32,10 @@ try:
 except KeyError as error:
     print(f"KeyError: {error}")
 
-    
+# Exercise 4 - Iterate
+for key, value in customer.items():
+    print(f"{key}: {value}")
+
+# .items() gives each key and its value. Looping over customer gives only the keys.
+for key in customer:
+    print(key)
