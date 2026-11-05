@@ -69,3 +69,13 @@ for shopper in customers:
     tier = shopper ["tier"]
     discounted_amount = 300 * tier_discounts.get(tier, 0)
     print(f"{name} ({tier}) - Discount: ${discounted_amount: .2f}")
+
+# Exercise 7 -Nested catalog 
+catalog = {
+    "Widget A": {"price": 9.99,  "stock": 150},
+    "Gadget C": {"price" 49.99,  "stock": 8}
+}
+
+for product_name, details in catalog.items():
+    if details["stock"] <20:
+        print(f"LOW STOCK: {product_name}")
