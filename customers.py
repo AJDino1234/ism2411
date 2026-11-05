@@ -1,7 +1,7 @@
 # Reflection
 #1. I would use .get() for an optional field like for a customers email as I can show a default message if it is not provided or missing. 
 #  I would use brackets for a specific required field, a customer tier may go missing which could cause an error that I can catch.
-#2.  Exercise 8 remind me of excel as it groups some transactions by region and then adds up the sales for each group. 
+#2.  Exercise 8 remind me of excel pivot table as it groups some transactions by region and then adds up the sales for each group. 
 # I think Python is useful for large datasets as it allows me to rerun the same script on new files and generates the summary without me doing calculations. 
 
 # Exercise 1 - One customer 
