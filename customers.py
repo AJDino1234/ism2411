@@ -25,7 +25,7 @@ del customer["email"]
 print(customer)
 
 # Exercise 3 - Safe lookup
-print(customer.get("email", " no email on file"))
+print(customer.get("email", "no email on file"))
 
 try:
     print(customer["email"])
